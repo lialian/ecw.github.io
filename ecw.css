@@ -1,0 +1,419 @@
+/* -- basico -- */
+
+body {
+    width: 100%;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.00;
+    opacity: 1.00;
+    body-align: center;
+    color: #747474;
+    background: url('') #transparent;
+    font-family: lato;
+    font-size: 11px;
+    margin: auto;
+    border: 3px solid #none;
+    cursor: default;
+}
+
+
+div#header {
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+body {
+     cursor: default; 
+     overflow-x: hidden;
+     width: 100%; 
+     margin-top: 15px; 
+     background: transparent;
+} 
+
+html {
+     cursor: crosshair; 
+     background: #e9d6f4 url('') repeat; 
+     background-position: top; 
+     background-attachment: scroll;
+}
+
+/* ------------  Fonte -------------- */
+p, a, body, td, tr, div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    color: #747474;
+    font-family: lato;
+    line-height: 11px;
+    cursor: default;
+}
+
+/*-- Links  --*/
+a, a:link {
+    font: 11px 'segoe ui';
+    text-transform: none;
+    color: #c3a9d4;
+    cursor: help;
+    line-height: 10px;
+    font-weight: normal;
+    font-style: normal;
+    TEXT-DECORATION: none;
+    background-color: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+}
+
+    a:hover {
+        font: 11px 'segoe ui';
+        text-transform: none;
+        color: #747474;
+        cursor: help;
+        line-height: 10px;
+        font-weight: normal;
+        font-style: normal;
+        TEXT-DECORATION: none;
+        background-color: #525252;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 0px dashed #525252;
+        letter-spacing: 1px;
+        text-shadow: 0px 0px;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+    }
+
+/*-- Estilos  --*/
+b {
+    cursor: crosshair;
+    color: #525252;
+}
+
+u {
+    cursor: crosshair;
+    color: #c698e3;
+}
+
+w {
+    cursor: crosshair;
+    color: #525252;
+    TEXT-DECORATION: underline;
+    background-color: none;
+    border-bottom: 1px dashed #525252;
+    text-transform: normal;
+    font-family: lato;
+    font-size: 11px;
+}
+
+i {
+    cursor: crosshair;
+    color: #c698e3;
+}
+
+s {
+    cursor: crosshair;
+    color: #525252;
+}
+
+cor1 {
+    cursor: crosshair;
+    color: #b397c5;
+}
+
+strong {
+    cursor: crosshair;
+    font: 11px lato;
+    font-style: italic;
+    color: #525252;
+}
+
+::-moz-selection {
+    color: #b091c2;
+    background: #e1cced;
+}
+
+::selection {
+    color: #b091c2;
+    background: #e1cced;
+}
+
+/* -- Caixas -- */
+.comentarios {
+    font-family: lato;
+    font-size: 12px;
+    color: #;
+    background: transparent;
+    padding: 10px;
+    border-bottom: 0px dotted #;
+    margin: 3px;
+    width: 420px;
+}
+
+input, textarea {
+    color: #525252;
+    font-family: lato;
+    margin: 1px;
+    padding: 5px;
+    font-size: 12px;
+    border: 2px solid #e1cced;
+    background: #e9d6f4 url('https://i.imgur.com/UbFdiv2.png');
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    TEXT-DECORATION: none;
+    opacity: 1.0;
+}
+
+
+/*-- Opacidade --*/
+a img {
+    border-left: 0px solid #898989;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.90;
+    opacity: 0.90;
+    -webkit-transition: all .7s ease-in;
+    -moz-transition: all .7s ease-in;
+    -o-transition: all .7s ease-in;
+    transition: all .7s ease-in;
+}
+
+a:hover img {
+    border-left: 0px solid #898989;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.90;
+    opacity: 0.90;
+}
+
+a img {
+    filter: alpha(opacity=70);
+    -webkit-filter: grayscale(100%);
+    -moz-opacity: 0.90;
+    opacity: 0.70;
+    -webkit-transition-duration: 0.8s;
+    box-shadow: 0px 0px 6px #;
+}
+
+a:hover img {
+    filter: alpha(opacity=100);
+    -webkit-filter: grayscale(20%);
+    -moz-opacity: 1.25;
+    opacity: 1.25;
+    -webkit-transition-duration: 0.8s;
+    box-shadow: 0px 0px 6px #;
+}
+
+img {
+    -webkit-box-shadow: 0px 0px 6px #;
+    -moz-box-shadow: 0px 0px 6px #;
+    box-shadow: 0px 0px 6px #;
+}
+
+.titulo {
+    font-family: montserrat;
+    padding: 10px;
+    letter-spacing: 0pt;
+    font-size: 10px;
+    ;
+    text-align: center;
+    font-weight: none;
+    font-style: bold;
+    text-transform: normal;
+    color: #525252;
+    width: 280px;
+    background: #e9d6f4 url("");
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.subtitulo {
+    font: 10px montserrat;
+    color: #525252;
+    font-weight: bold;
+    font-style: underline;
+    text-align: center;
+    border-bottom: 1px dashed #dabfea;
+    text-transform: uppercase;
+    padding: 1px 1px 2px 1px;
+    background: #e5cff1 url("");
+    -moz-border-radius: 0px;
+    width: 100%;
+}
+
+
+/*-- Tables --*/
+.fundopost {
+    font: 11px 'lato';
+    border-bottom: 2px solid #;
+    color: #;
+    background: #e9d6f4 url('');
+    padding: 20px 20px 20px 20px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    -moz-box-shadow: 0px 0px 5px #e9d6f4;
+    -webkit-box-shadow: 0px 0px 5px #e9d6f4;
+    box-shadow: 0px 0px 5px #e9d6f4;
+    font-family: 'lato';
+    text-align: justify;
+    ;
+    border-right: 0px solid #;
+    width: 450px;
+    border-bottom: 0px solid #;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.text {
+    font: 11px 'lato';
+    padding: 8px;
+    text-align: justify;
+    line-height: 11px;
+}
+
+.table {
+    font: 11px 'lato';
+    text-align: center;
+    background: #e7eeed url('https://i.imgur.com/UbFdiv2.png');
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    width: 300px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
+    border-radius: 0px 0px 0px 0px;
+    border-right: 1px dashed #605f5f;
+}
+
+.linha { 
+       border-top: 1px solid #605f5f; width: 450px;
+}
+
+.tab1 {
+    color: #F5EDDD;
+    font-size: 11px;
+    border: 2px dotted #F5EDDD;
+    font-family: Verdana;
+    text-align: center;
+    width: 300px;
+    padding: 9px 9px 9px 9px;
+    background-color: #F5EDDD;
+    -o-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#barra {
+    width: 80%;
+    height: auto;
+    align: left;
+    color: #e9d6f4;
+    background: transparent url("");
+    margin-top: 350px;
+}
+
+    #barra .tubo {
+        width: 100%;
+        height: auto;
+        align: left;
+        text-align: center;
+        border-bottom: 0px solid #D9E5E3;
+        background: #e9d6f4 url("");
+    }
+
+    #barra .fvbarraf {
+        align: left;
+        margin-left: 100%;
+        height: 12px;
+        font: 9px 'lato';
+        color: #747474;
+        background: #4c4c4c;
+        border-bottom: 0px solid #D9E5E3;
+        opacity: 1.0;
+        line-height: 12px;
+        margin-bottom: 10px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    #barra .fvbarra a:link, #barra .fvbarra a:visited, #barra .fvbarra a:active {
+        align: center;
+        color: #747474;
+        font: 9px lato;
+        line-height: 12px;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background: #4c4c4c;
+        margin: 2px;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        box-shadow: 0px 0px 5px #4c4c4c;
+        border-radius: 20px 20px 20px 20px;
+        background-image: url("");
+    }
+
+    #barra .fvbarra a:hover {
+        align: center;
+        margin: 2px;
+        color: #c9a7dc;
+        font: 9px lato;
+        text-align: center;
+        letter-spacing: 2px;
+        border-bottom: 1px solid #e0c9ed;
+        padding: 5px 5px 5px 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background: #e0c9ed;
+        opacity: 1.0;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0px 0px 5px #e0c9ed;
+    }
+
+    #barra .fvbarra {
+        align: center;
+        font: normal 1px lato;
+        color: transparent;
+    }
+
+    #barra .barraimg {
+        opacity: .0;
+    }
+
+html {
+     background-color: #e9d6f4; 
+     background-repeat: no-repeat; 
+     background-attachment: scroll; 
+     background-position: top center; 
+     background-image: url("https://i.imgur.com/BVNHkH3.png"); 
+     border-top: 0px solid none; 
+     border-left: 0px solid none; 
+     auto;
+}
+body {
+     margin: auto; 
+     background-image: url(""); 
+     width: auto;
+}
+
+#footer {
+    text-align: center;
+    background: #e0c9ed url("https://i.imgur.com/UbFdiv2.png");
+    border-top: 3px solid #e6d1f2;
+    color: #747474;
+    font-family: montserrat;
+    letter-spacing: 7px;
+    padding: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: none;
+    font-weight: none;
+    text-decoration: none;
+}
